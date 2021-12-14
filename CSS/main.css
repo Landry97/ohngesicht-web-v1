@@ -32,7 +32,19 @@ header {
     flex-direction: column;
     align-items: flex-start;
 }
-.header-title {position: absolute;display: flex; left:1rem; top: 1rem; text-align: center;justify-content: center;text-transform: uppercase;z-index: 1000;height: 3.5rem;font-weight: lighter;letter-spacing: .6em;}
+.header-title {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    z-index: 1000;
+    height: 100%;
+    font-weight: lighter;
+    letter-spacing: .6em;
+}
 .header-title a span{padding: .5rem; color: white;font-size: 1rem;height: 100%;text-align: center;box-sizing:border-box;display: block;float: none;line-height: normal;position: static;z-index: auto;}
 .header-title p{color: white;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
 
