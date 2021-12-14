@@ -121,7 +121,7 @@ address div p a{font-size: 1.25rem;text-decoration: none;text-decoration-style: 
 #nav-ul.show li.menu-item a{color: black;}
 #nav-ul.show li.menu-item a:hover, #address.show li.menu-item a:hover{color: white;} 
 
-footer{margin-top: auto;background: black;display: flex;flex-direction: row;width: 100%;padding-top: 5rem;padding-bottom: 3rem;padding-left: 2.5rem;letter-spacing: .1rem;font-size: .75em;}
+footer{margin-top: auto;background: black;display: flex;flex-direction: row;width: 100%;padding-top: 5rem;padding-bottom: 3rem;padding-left: 1rem;letter-spacing: .1rem;font-size: .75em;}
 footer p a {color: white;text-decoration: none;}
 
 .instagram{height: 1rem;display: flex;align-content: space-around;align-items: center;margin-right: 3.5%;margin-top: .5%;margin-bottom: .5%;font-size: .85rem;}
