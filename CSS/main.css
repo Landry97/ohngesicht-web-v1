@@ -60,10 +60,24 @@ header {
     padding-left: 1rem;
 }.header-title p{color: white;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
 
-.instagram-header{
+.instagram-header {
     position: absolute;
-    display: flex; right:1rem; top: 1rem; z-index: 1000;height: 3.5rem;font-weight: lighter;letter-spacing: .1em; text-decoration: none; list-style-type: none;
-    background: url("instagram-icon.png") no-repeat;background-size: 100%;background-color: transparent;height: 1rem;width: 1rem;
+    display: flex;
+    right: 1rem;
+    top: 1rem;
+    z-index: 997;
+    height: 3.5rem;
+    font-weight: lighter;
+    letter-spacing: .1em;
+    text-decoration: none;
+    list-style-type: none;
+    background: url("instagram-icon.png") no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        background-size: auto;
+    background-size: 100%;
+    background-color: transparent;
+    height: 2rem;
+    width: 2rem;
 }
 
 
