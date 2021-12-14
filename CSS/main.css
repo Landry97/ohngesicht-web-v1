@@ -78,6 +78,10 @@ header {
     height: 2rem;
     width: 2rem;
 }
+.instagram-header a{
+    height: 2rem;
+    width: 2rem;
+}
 
 
 p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: black;}
