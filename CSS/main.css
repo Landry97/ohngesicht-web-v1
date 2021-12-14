@@ -94,6 +94,12 @@ header {
     width: 6rem;
     background: white;
 }
+#pic-all-width-id{
+display:block;
+    width:100%
+        margin:0;
+    padding:0;
+}
 
 p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: black;}
 .menu-toggle{display: none;position: absolute;left: 0;text-indent: -100rem;width: 3em;padding-top: 1em;padding-bottom: 1em;align-items: center;justify-content: center;justify-items: center;}
