@@ -63,6 +63,7 @@ header {
 .instagram-header{
     position: absolute;
     display: flex; right:1rem; top: 1rem; z-index: 1000;height: 3.5rem;font-weight: lighter;letter-spacing: .1em; text-decoration: none; list-style-type: none;
+    background: url("instagram-icon.png") no-repeat;background-size: 100%;background-color: transparent;height: 1rem;width: 1rem;
 }
 
 
