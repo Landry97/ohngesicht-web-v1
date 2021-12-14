@@ -161,7 +161,7 @@ footer p a {color: white;text-decoration: none;}
 
 li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter-spacing: .1rem;}
     .project-list-index{ 
-        --num-cols: 2; 
+        --num-cols: 3; 
         width: 90vw;
         align-self: center;
         --gap: 1.5rem; 
