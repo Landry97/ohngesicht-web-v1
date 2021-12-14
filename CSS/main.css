@@ -180,6 +180,8 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 @media (min-width: 1000px){
     .project-list-index{ 
         --num-cols: 3;}}
+@media (max-width: 1000px){
+    .logo-title{display:none;}}
 
 /* Works on Firefox */
 * {
