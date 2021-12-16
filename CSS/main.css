@@ -183,12 +183,12 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 
 
 
-@media (min-width: 200px){
-    .project-list-index{ 
-        --num-cols: 2;}}
 @media (min-width: 1000px){
     .project-list-index{ 
-        --num-cols: 3;}
+        --num-cols: 3;}}
+@media (max-width: 1000px){
+    .project-list-index{ 
+        --num-cols: 2;}
     .logo-title{display:none;}
 footer {flex-direction: column;}}
 
