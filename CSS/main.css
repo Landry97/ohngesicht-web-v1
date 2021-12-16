@@ -169,8 +169,7 @@ footer p a {color: white;text-decoration: none;}
 .project-info-index p{margin: 0;letter-spacing: .1rem;}
 
 li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter-spacing: .1rem;}
-    .project-list-index{ 
-        --num-cols: 2; 
+   .project-list-index{      
         width: 100%;
         align-self: center;
         --gap: 1rem; 
@@ -187,6 +186,8 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
     .project-list-index{ 
         --num-cols: 3;}}
 @media (max-width: 1000px){
+    .project-list-index{ 
+        --num-cols: 2;}}
     .logo-title{display:none;}
 footer {flex-direction: column;}}
 
