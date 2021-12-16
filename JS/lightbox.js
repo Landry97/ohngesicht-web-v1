@@ -6,7 +6,6 @@ function openLightbox() {
   document.getElementById('close-pointer').style.align = 'center';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox').style.display = 'flex';
-  document.getElementById('rowid').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
 var dots = window.matchMedia( "(min-width: 350px)" );
 if (dots.matches) {
@@ -19,7 +18,6 @@ else {
 function closeLightbox() {
   document.getElementsByTagName('body')[0].style.overflow ="";
   document.getElementById('Lightbox').style.display = 'none'; 
-  document.getElementById('rowid').style.display = 'grid';
   document.getElementsByTagName("Footer")[0].style.display = "flex";
 };
 function changeSlide(n) {
