@@ -101,6 +101,13 @@ display:block;
     padding:0;
 }
 
+a .link-to-project{
+    width:100%;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+}
+
 p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: black;}
 .menu-toggle{display: none;position: absolute;left: 0;text-indent: -100rem;width: 3em;padding-top: 1em;padding-bottom: 1em;align-items: center;justify-content: center;justify-items: center;}
 nav.menu li{display: flex;align-content: center;text-align: center;align-items: center;flex-direction: row;letter-spacing: .3rem;padding-right: 4rem;padding-left: 4rem;}
@@ -173,13 +180,6 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
         grid-auto-rows: var(--row-height); gap: var(--gap); } 
    figure.project-index{width: 100%;height: 100%;object-fit: cover; margin:0;}}
 
-.link-to-project{
-    width:100%;
-    height: 100%;
-    align-items: center;
-    align-content: center;
-}
-
 
 @media (min-width: 1000px){
     .project-list-index{ 
@@ -235,3 +235,9 @@ list-type: none;
   border: 3px solid red;
 }
 
+.link-to-project{
+position: absolute;
+left:0;
+top:0;
+width:100%;
+height:100%;}
