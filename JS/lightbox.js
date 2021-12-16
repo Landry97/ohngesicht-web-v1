@@ -1,20 +1,12 @@
 let slideIndex = 1;
 
 function openLightbox() { 
-  document.getElementById('headerid').style.position = 'fixed';
-  document.getElementById('headerid').style.height = '5rem';
-  document.getElementById('headerid').style.width = '85vw';
-  document.getElementById('headerid').style.left = '0';
-  document.getElementById('headerid').style.top = '0';
-  document.getElementById('headerid').style.zIndex = '100001';
   document.getElementById('close-pointer').style.position = 'fixed';
   document.getElementById('close-pointer').style.height = '5rem';
   document.getElementById('close-pointer').style.align = 'center';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementById('rowid').style.display = 'none';
-  document.getElementById('info').style.display = 'none';
-  document.getElementById('madebyid').style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = "none";
 var dots = window.matchMedia( "(min-width: 350px)" );
 if (dots.matches) {
@@ -25,16 +17,9 @@ else {
 }
 };
 function closeLightbox() {
-  document.getElementById('headerid').style.position = '';
-  document.getElementById('headerid').style.height = '';
-  document.getElementById('headerid').style.width = '';
-  document.getElementById('headerid').style.top = '0';
-  document.getElementById('headerid').style.zIndex = '';
   document.getElementsByTagName('body')[0].style.overflow ="";
   document.getElementById('Lightbox').style.display = 'none'; 
   document.getElementById('rowid').style.display = 'grid';
-  document.getElementById('info').style.display = 'flex';
-  document.getElementById('madebyid').style.display = 'flex';
   document.getElementsByTagName("Footer")[0].style.display = "flex";
 };
 function changeSlide(n) {
