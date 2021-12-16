@@ -99,7 +99,7 @@
         </picture>
       </p> </a>
   
-  <section class="layer" style="position: absolute;width: 100%;height: 100%;"></section>
+  <section class="layer-col" onclick="openLightbox();toSlide(1)" style="position: absolute;width: 100%;height: 100%;"></section>
     </figure>
   
             <!-- SIZES PICTURES ADJUST -->
@@ -209,6 +209,33 @@
       </p> </a>
     </figure>
 </div>
+  
+  
+  
+  
+
+<!-- LIGHTBOX GALLERIE -->
+<div id="Lightbox" class="modal">
+  
+    <span id="close-pointer" class="close pointer" onclick="closeLightbox()">&times;</span>
+    <div class="modal-content">
+      <div class="slide">
+        <img src="IMG/Serie_1/bild_index.jpg" class="image-slide" alt="" />
+      </div>
+      <section id="layer"></section>
+    </div>
+    
+    <div class="directiontext">
+      <a class="prev" onclick="changeSlide(-1)"><p class="textprev">zurück</p></a>
+      <a id="next" class="nex" onclick="changeSlide(1)"><p class="textnex">weiter</p></a>
+      <a id="again" class="again" onclick="changeSlide(1)"><p class="textag">nochmal</p></a>
+    </div>
+    <!-- LIGHTBOX: DOTS -->
+<div class="dots" id="dots">
+      <div class="dot" onclick="toSlide(1)"></div>
+</div> 
+  
+  
   <footer>
     <p class="instagram">
     <a href="https://instagram.com/ohngesicht_" target="_blank">Instagram</a>
