@@ -110,7 +110,7 @@ align-content: center;
 width:100%;
 height:100%;
 }
-#pictureid.img {width:100%;}
+img.pic-all-width-img {width:100%;}
 
 
 p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: black;}
