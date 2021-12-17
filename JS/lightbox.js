@@ -2,7 +2,7 @@ let slideIndex = 1;
 
 function openLightbox() { 
   document.getElementById('bodyid').style.color = 'white';
-  document.getElementById('lightbox').style.color = 'white';
+  document.getElementById('Lightbox').style.color = 'white';
   document.getElementById('close-pointer').style.position = 'fixed';
   document.getElementById('close-pointer').style.height = '5rem';
   document.getElementById('close-pointer').style.align = 'center';
@@ -20,7 +20,7 @@ else {
 function closeLightbox() {
   
   document.getElementById('bodyid').style.color = '';
-  document.getElementById('lightbox').style.color = '';
+  document.getElementById('Lightbox').style.color = '';
   document.getElementsByTagName('body')[0].style.overflow ="";
   document.getElementById('Lightbox').style.display = 'none'; 
   document.getElementsByTagName("Footer")[0].style.display = "flex";
