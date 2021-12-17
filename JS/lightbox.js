@@ -1,6 +1,7 @@
 let slideIndex = 1;
 
 function openLightbox() { 
+  document.getElementsByTagName("Header")[0].style.display = 'none';
   document.getElementById('bodyid').style.color = 'white';
   document.getElementById('Lightbox').style.background = 'white';
   document.getElementById('close-pointer').style.position = 'fixed';
@@ -19,6 +20,7 @@ else {
 };
 function closeLightbox() {
   
+  document.getElementsByTagName("Header")[0].style.display = '';
   document.getElementById('bodyid').style.color = '';
   document.getElementById('Lightbox').style.background = '';
   document.getElementsByTagName('body')[0].style.overflow ="";
