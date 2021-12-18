@@ -9,7 +9,6 @@ function openLightbox() {
   document.getElementById('close-pointer').style.align = 'center';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox').style.display = 'flex';
-  document.getElementsByTagName("Footer")[0].style.display = "none";
 };
 function closeLightbox() {
   
