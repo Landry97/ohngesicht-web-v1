@@ -10,13 +10,6 @@ function openLightbox() {
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox').style.display = 'flex';
   document.getElementsByTagName("Footer")[0].style.display = "none";
-var dots = window.matchMedia( "(min-width: 350px)" );
-if (dots.matches) {
-  document.getElementById('dots').style.display = 'grid';
-}
-else {
-  document.getElementById('dots').style.display = 'none';
-}
 };
 function closeLightbox() {
   
@@ -38,11 +31,7 @@ function toSlide(n) {
 function showSlide(n) {
   const slides = document.getElementsByClassName('slide');
   let modalPreviews = document.getElementsByClassName('modal-preview');
-  const dot = document.getElementsByClassName('dots');
-  let dots = document.getElementsByClassName('dot');
 
-
-  
   
   if (n > 1) {
   document.getElementById('again').style.display = 'none';
@@ -69,19 +58,11 @@ function showSlide(n) {
 
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
-    dots[i].style.background = "white";
-    dots[i].style.opacity = "1";
-    dots[i].style.display = 'grid';
   };
   for (let i = 0; i < modalPreviews.length; i++) {
     modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
-    dot[i].className = dot[i].className.replace(' active', '');
   };
-  const dotzz = document.getElementsByClassName('dots');
-  let y = dotzz.length;
   slides[slideIndex - 1].style.display = 'flex';
-  dots[slideIndex - 1].style.background = "green";
-  dots[slideIndex - 1].style.opacity = ".7";
   };
   overlayShown = false,
   overlayScrollListener = null,
