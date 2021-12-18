@@ -113,6 +113,11 @@ display:flex;
 }
 img.pic-all-width-img {width:100%;}
 
+.project-image {
+    height: 100%;
+    width: 100%;
+}
+
 
 p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: black;}
 .menu-toggle{display: none;position: absolute;left: 0;text-indent: -100rem;width: 3em;padding-top: 1em;padding-bottom: 1em;align-items: center;justify-content: center;justify-items: center;}
