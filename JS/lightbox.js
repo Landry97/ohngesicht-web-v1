@@ -4,12 +4,12 @@ function openLightbox() {
   document.getElementsByTagName("Header")[0].style.display = 'none';
   document.getElementsByTagName("Footer")[0].style.display = 'none';
   document.getElementById('bodyid').style.color = 'white';
-  document.getElementById('Lightbox').style.background = 'white';
   document.getElementById('close-pointer').style.position = 'fixed';
   document.getElementById('close-pointer').style.height = '5rem';
   document.getElementById('close-pointer').style.align = 'center';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox').style.display = 'flex';
+  document.getElementById('Lightbox').style.background = 'rgba(255 255 255 0.8)';
 };
 function closeLightbox() {
   
