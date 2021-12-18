@@ -100,7 +100,7 @@ display:block;
         margin:0;
     padding:0;
 }
-.pic-all-width.img{width:100%;}
+img.pic-all-width-img{width:100%;}
 .first-section{
     width:100%;
     height: 100%;
