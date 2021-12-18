@@ -2,6 +2,7 @@ let slideIndex = 1;
 
 function openLightbox() { 
   document.getElementsByTagName("Header")[0].style.display = 'none';
+  document.getElementsByTagName("Footer")[0].style.display = 'none';
   document.getElementById('bodyid').style.color = 'white';
   document.getElementById('Lightbox').style.background = 'white';
   document.getElementById('close-pointer').style.position = 'fixed';
@@ -13,11 +14,11 @@ function openLightbox() {
 function closeLightbox() {
   
   document.getElementsByTagName("Header")[0].style.display = '';
+  document.getElementsByTagName("Footer")[0].style.display = '';
   document.getElementById('bodyid').style.color = '';
   document.getElementById('Lightbox').style.background = '';
   document.getElementsByTagName('body')[0].style.overflow ="";
   document.getElementById('Lightbox').style.display = 'none'; 
-  document.getElementsByTagName("Footer")[0].style.display = "flex";
 };
 function changeSlide(n) {
   showSlide(slideIndex += n);
