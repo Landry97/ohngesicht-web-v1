@@ -202,25 +202,27 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 footer {flex-direction: column;}}
 
 
-.top-btn {display: none;
+.top-btn {
+    display: none;
     position: fixed;
     right: 1rem;
     bottom: 1.75rem;
-background:transparent;
-color: black;
-align-self: flexend;
-text-decoration: none;
-list-type: none;
+    background: transparent;
+    color: black;
+    align-self: flexend;
+    text-decoration: none;
+    list-type: none;
     width: 0;
     height: 0;
     border-top: 0.2rem solid transparent;
     border-right: .5rem solid transparent;
-    border-bottom: 1rem solid white;
+    border-bottom: 1rem solid blue;
     border-left: .5rem solid transparent;
     align-content: space-around;
     align-items: center;
     cursor: pointer;
-}
+    background-clip: border-box;
+    background: transparent; }
 
 
 /* Works on Firefox */
