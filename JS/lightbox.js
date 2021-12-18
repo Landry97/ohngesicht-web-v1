@@ -9,7 +9,7 @@ function openLightbox() {
   document.getElementById('close-pointer').style.align = 'center';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
   document.getElementById('Lightbox').style.display = 'flex';
-  document.getElementById('Lightbox').style.background = 'rgba(255 255 255 0.8)';
+  document.getElementById('Lightbox').style.background = 'rgba(255 255 255 0.95)';
 };
 function closeLightbox() {
   
